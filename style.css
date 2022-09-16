@@ -1,0 +1,227 @@
+body{
+    margin: 0 !important;
+    text-align: justify;
+    overflow-x:hidden !important;
+    scroll-behavior: smooth;
+
+}
+
+.navbar{
+    font-size: 500;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Lexend Exa', sans-serif; 
+    /* margin-top: -1.5%; */
+    /* background-color: #161718; */
+}
+#landingpage .btn{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 0px;
+    background-color:transparent;
+    border: 2px;
+    border-style: solid;
+    border-width: 2px;
+    color: black;
+}
+#landingpage .btn:hover{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 0px;
+    background-color:transparent;
+    border: 2px;
+    border-style: solid;
+    border-width: 2px;
+    /* color: black; */
+    /* background-color: #549be3; */
+    border-color: antiquewhite;
+    color: #fffffe;
+}
+.nav-item:hover {
+    background-color: white;
+    /* color: white; */
+    border-radius: 30px;
+}
+#navcon:hover{
+    background-color: transparent;
+}
+
+.navbar ul li { 
+	padding: 0px 25px;
+ } 
+/* Section */
+
+.container{
+    scroll-snap-type: y mandatory !important;
+    
+
+}
+/* Landing Page */
+section {
+    padding-top: 1.2rem;
+    scroll-snap-align:start !important;
+
+}
+#page {
+    background-image: url(/Assets/Background/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#landingpage {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 7.5% !important;
+    font-family: 'Lexend Exa', sans-serif;
+    padding: 0%;
+    text-align: right;
+}
+/* End Landing Page */
+
+/* About */
+#about{
+    background-image: url(/Assets/Design/wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size:auto;
+    height: 100vh;
+}
+#landingpage h1{
+    font-size:20vh;
+}
+#client{
+    max-height:200vh;
+    padding: 1rem 1rem;
+    font-family: 'Lexend Exa', sans-serif;
+}
+#rowclient{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#team{
+    padding: 2rem 1rem;
+    border-color: transparent;
+    background-color: aliceblue;
+    color: black;
+}
+
+#Introduction{
+    border-radius: 30px;
+    display: block;
+    align-items: center;
+    padding: 2rem 4rem !important;
+    justify-content: center;
+    margin-top: 7% !important;
+    font-family: 'Lexend Exa', sans-serif;
+    text-align: left !important;
+}
+/* End About */
+
+/* Design */
+#design, #design2, #design3{
+    display: flex;
+    background-color: #fffffe;
+    max-height: 300vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lexend Exa', sans-serif;
+}
+.card-group{
+    margin: 2%;
+}
+
+.card-img-top{
+    width:100%;
+    height:auto;
+  }
+#contact{
+    display: flex;
+}
+
+.carousel-item{
+    max-height: 100vh;
+}
+.footer{
+    display: block;
+}
+#pengalaman{
+    justify-content:right;
+    align-items: flex-end;
+    text-align: end;
+}
+#ilust{
+    text-align: right;
+}
+#slide{
+    background-size: cover !important;
+    background-position: bottom !important;
+}
+
+@media screen and (max-width: 600px) {
+    .carousel-item{
+        max-height: 100vh;
+    }
+    #landingpage {
+        justify-content: center;
+        text-align: center;
+        margin-top: 25% !important;
+    }
+    #landingpage h1{
+        font-size:7vh;
+    }
+    
+    #Introduction p{
+        font-size: small;
+    }
+    #design, #design2, #design3{
+        display: flex;
+        min-height: 50vh;
+        max-height: 200vh;
+    }
+
+    .navbar{
+        background-color: white;
+    }
+    .navbar-brand, #logo{
+         max-height: 60px;
+    }
+    .nav-item, .nav-link{
+        text-align: right;
+    }
+    #about{
+        margin-top: 12% !important;
+        background-image: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+    #Introduction{
+        background-image: url(/Assets/Design/wave.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size:auto;
+    }
+    #pengalaman{
+        justify-content:space-around;
+        align-items: center;
+        text-align: center;
+        margin-top: 2.5%;
+    }
+    #ilust{
+        text-align: center !important;
+    }
+    #client img{
+        width: 100%;
+        background-position: center;
+    }
+    #rowclient{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
