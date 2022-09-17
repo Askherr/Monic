@@ -182,7 +182,7 @@
                         <div class="card-group">
                           <div class="card shadow">
                             <div class="card-body">
-                              <a target="_blank" onclick="openInNewTab('/Assets/Design/Container Cafe 1.png')"><img src="/Assets/Design/Container Cafe 1.png"class="rounded card-img-top" alt="..."></a>
+                              <a onclick="openInNewTab('/Assets/Design/Container Cafe 1.png')"><img src="/Assets/Design/Container Cafe 1.png"class="rounded card-img-top" alt="..."></a>
                               <p class="card-title">Container Cafe</p>
                             </div>
                           </div>
@@ -194,7 +194,7 @@
                         <div class="card-group">
                           <div class="card shadow">
                             <div class="card-body">
-                              <a target="_blank" onclick="openInNewTab('/Assets/Design/Container Living Room.png')"><img src="/Assets/Design/Container Living Room.png"class="rounded card-img-top"alt="..."></a>
+                              <a onclick="openInNewTab('/Assets/Design/Container Living Room.png')"><img src="/Assets/Design/Container Living Room.png"class="rounded card-img-top"alt="..."></a>
                               <p class="card-title">Container Room</p>
                             </div>
                           </div>
@@ -206,7 +206,7 @@
                       <div class="card-group">
                         <div class="card shadow">
                           <div class="card-body">
-                            <a target="_blank" onclick="openInNewTab('/Assets/Design/Container Minimart.png')"><img src="/Assets/Design/Container Minimart.png"class="rounded card-img-top" alt="..."></a>
+                            <a onclick="openInNewTab('/Assets/Design/Container Minimart.png')"><img src="/Assets/Design/Container Minimart.png"class="rounded card-img-top" alt="..."></a>
                             <p class="card-title">Container Minimart</p>
                           </div>
                         </div>
@@ -218,7 +218,7 @@
                       <div class="card-group">
                         <div class="card shadow">
                           <div class="card-body">
-                            <a target="_blank" onclick="openInNewTab('/Assets/Design/Container Office + Cafe.png')"><img src="/Assets/Design/Container Office + Cafe.png"class="rounded card-img-top" alt="..."></a>
+                            <a onclick="openInNewTab('/Assets/Design/Container Office + Cafe.png')"><img src="/Assets/Design/Container Office + Cafe.png"class="rounded card-img-top" alt="..."></a>
                             <p class="card-title">Container Office</p>
                           </div>
                         </div>
@@ -230,7 +230,7 @@
                       <div class="card-group">
                         <div class="card shadow">
                           <div class="card-body">
-                            <a target="_blank" onclick="openInNewTab('/Assets/Design/Container Police.png')"><img src="/Assets/Design/Container Police.png"class="rounded card-img-top" alt="..."></a>
+                            <a onclick="openInNewTab('/Assets/Design/Container Police.png')"><img src="/Assets/Design/Container Police.png"class="rounded card-img-top" alt="..."></a>
                             <p class="card-title">Container Police</p>
                           </div>
                         </div>
@@ -242,7 +242,7 @@
                       <div class="card-group">
                         <div class="card shadow">
                           <div class="card-body">
-                            <a target="_blank" onclick="openInNewTab('/Assets/Design/Container Portacamp.png')"><img src="/Assets/Design/Container Portacamp.png"class="rounded card-img-top" alt="..."></a>
+                            <a onclick="openInNewTab('/Assets/Design/Container Portacamp.png')"><img src="/Assets/Design/Container Portacamp.png"class="rounded card-img-top" alt="..."></a>
                             <p class="card-title">Container Portacamp</p>
                           </div>
                         </div>
@@ -348,22 +348,22 @@
     <section class="mb-4">
       <h4>Social Media</h4>
       <!-- Whatsapp -->
-      <a target="_blank" onclick="openInNewTab('wa.me/+6288975964763')" class="btn btn-outline-light btn-floating m-1"role="button">
+      <a onclick="openInNewTab('https:wa.me/+6288975964763')" class="btn btn-outline-light btn-floating m-1"role="button">
       <i class="fa fa-whatsapp" aria-hidden="true"></i>
       <!-- Facebook -->
-      <a target="_blank" onclick="openInNewTab('www.facebook.com/monickstone12')" class="btn btn-outline-light btn-floating m-1"role="button"
+      <a onclick="openInNewTab('https:www.facebook.com/monickstone12')" class="btn btn-outline-light btn-floating m-1"role="button"
         ><i class="fab fa-facebook-f"></i
       ></a>
       <!-- Google -->
-      <a target="_blank" onclick="openInNewTab('mailto:monzah27@gmail.com')" class="btn btn-outline-light btn-floating m-1" role="button"
+      <a onclick="openInNewTab('mailto:monzah27@gmail.com')" class="btn btn-outline-light btn-floating m-1" role="button"
         ><i class="fab fa-google"></i
       ></a>
       <!-- Instagram -->
-      <a target="_blank" onclick="openInNewTab('www.instagram.com/namsart_design/')" class="btn btn-outline-light btn-floating m-1" role="button"
+      <a onclick="openInNewTab('https:www.instagram.com/namsart_design/')" class="btn btn-outline-light btn-floating m-1" role="button"
         ><i class="fab fa-instagram"></i
       ></a>
       <!-- Linkedin -->
-      <a target="_blank" onclick="openInNewTab('www.linkedin.com/in/monica-zahri-6b3b6b23b')" class="btn btn-outline-light btn-floating m-1" role="button"
+      <a onclick="openInNewTab('https:www.linkedin.com/in/monica-zahri-6b3b6b23b')" class="btn btn-outline-light btn-floating m-1" role="button"
         ><i class="fab fa-linkedin-in"></i
       ></a>
     </section>
@@ -464,13 +464,14 @@ dan Home living
 
             <!-- Bahan Icon -->
             <!-- <img src="https://img.icons8.com/wired/64/000000/google-sketchup.png"/> -->
-            <script>
+            <script type="text/javascript">
 
               function openInNewTab(url) {
-                window.open(url, '_blank').focus()               
+              window.open(url).focus();
+                
               }
               //or just
-              window.open(url, '_blank').focus();
+              // window.open(url, '_blank').focus();
               </script>
 
             <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
